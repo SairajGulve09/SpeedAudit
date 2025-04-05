@@ -18,7 +18,7 @@ import java.util.Map;
 @Service
 public class PageSpeedService {
 
-    private static final String API_KEY = "AIzaSyC3R2NHZLFqJkFSA4eiy25RcBEKW1OOwZU"; 
+    private static final String API_KEY = "AIzaSyB1zrLut65sAHpRse_BJRFvGZOPDqPhrWQ"; 
     private static final String API_URL = "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=%s&strategy=mobile&key=" + API_KEY;
 
     private final RestTemplate restTemplate = new RestTemplate();
