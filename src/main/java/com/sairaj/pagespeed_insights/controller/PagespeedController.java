@@ -18,7 +18,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/pagespeed")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class PagespeedController {
 
     @Autowired
